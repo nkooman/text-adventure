@@ -1,0 +1,55 @@
+{
+  "name": "text-adventure",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.4.1",
+    "@xstate/react": "^1.6.1",
+    "dotenv-cra": "^3.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "react-use": "^17.3.1",
+    "styled-components": "^5.3.1",
+    "twin.macro": "^2.7.0",
+    "typescript": "^4.1.2",
+    "xstate": "^4.25.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^6.3.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-helmet": "^6.1.2",
+    "@types/styled-components": "^5.1.14",
+    "@typescript-eslint/parser": "^4.31.1",
+    "autoprefixer": "^10.3.6",
+    "craco-alias": "^3.0.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-typescript-prettier": "^4.2.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.24.2",
+    "postcss": "^8.3.8",
+    "prettier": "^2.4.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "tailwindcss": "^2.2.16"
+  }
+}

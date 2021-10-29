@@ -1,0 +1,26 @@
+{
+  "env": { "browser": true },
+  "extends": ["airbnb-typescript-prettier"],
+  "plugins": ["prettier", "react-hooks", "import"],
+
+  "rules": {
+    "prettier/prettier": ["error"],
+    "linebreak-style": ["error", "unix"],
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": "error",
+    "jsx-a11y/label-has-associated-control": [2, {}],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": "./"
+      }
+    }
+  }
+}

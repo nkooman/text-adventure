@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Classic Console Neue";
+  src: local("Classic Console Neue"),
+       url("./clacon2.woff2") format("woff2");
+}

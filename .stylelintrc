@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "stylelint-config-rational-order"
+  ],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "function-name-case": "lower",
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": [
+          "where"
+        ]
+      }
+    ]
+  }
+}
