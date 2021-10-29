@@ -7,7 +7,21 @@ module.exports = {
       display: ['Classic Console Neue', 'Courier New', 'Monaco', 'Courier'],
       body: ['Classic Console Neue', 'Courier New', 'Monaco', 'Courier'],
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        blink: {
+          '0%, 49%': {
+            opacity: 1,
+          },
+          '50%, 100%': {
+            opacity: 0,
+          },
+        },
+      },
+      animation: {
+        blink: 'blink 1s infinite',
+      },
+    },
   },
   variants: {
     extend: {},
